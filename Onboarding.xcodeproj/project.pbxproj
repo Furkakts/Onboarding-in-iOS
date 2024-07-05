@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC27D36B2C382831002D9CCC /* MockDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC27D36A2C382831002D9CCC /* MockDataModel.swift */; };
 		DC4716D72C37F0A800E32EBE /* OnboardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4716D62C37F0A800E32EBE /* OnboardingApp.swift */; };
 		DC4716D92C37F0A800E32EBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4716D82C37F0A800E32EBE /* ContentView.swift */; };
 		DC4716DB2C37F0AB00E32EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4716DA2C37F0AB00E32EBE /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC27D36A2C382831002D9CCC /* MockDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataModel.swift; sourceTree = "<group>"; };
 		DC4716D32C37F0A800E32EBE /* Onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Onboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4716D62C37F0A800E32EBE /* OnboardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp.swift; sourceTree = "<group>"; };
 		DC4716D82C37F0A800E32EBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				DC4716D62C37F0A800E32EBE /* OnboardingApp.swift */,
 				DC4716D82C37F0A800E32EBE /* ContentView.swift */,
+				DC27D36A2C382831002D9CCC /* MockDataModel.swift */,
 				DC4716DA2C37F0AB00E32EBE /* Assets.xcassets */,
 				DC4716DC2C37F0AB00E32EBE /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC27D36B2C382831002D9CCC /* MockDataModel.swift in Sources */,
 				DC4716D92C37F0A800E32EBE /* ContentView.swift in Sources */,
 				DC4716D72C37F0A800E32EBE /* OnboardingApp.swift in Sources */,
 			);
